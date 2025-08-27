@@ -17,6 +17,11 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // 👇 Close mobile menu when route changes
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [location.pathname]);
+
   return (
     <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <div className="container">
