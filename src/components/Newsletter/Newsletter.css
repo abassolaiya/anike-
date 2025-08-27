@@ -1,0 +1,75 @@
+/* components/Newsletter/Newsletter.css */
+.newsletter {
+  padding: 80px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #f9f0f5 0%, #f8e5eb 100%);
+}
+
+.newsletter .section-title {
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #666;
+  font-size: 16px;
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 15px 25px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.newsletter-form input:focus {
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 15px 30px;
+  background: var(--taupe);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition);
+}
+
+.newsletter-form button:hover {
+  background: var(--gold);
+}
+
+@media (max-width: 768px) {
+  .newsletter {
+    padding: 60px 0;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .newsletter-form input {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 1px;
+  }
+
+  .newsletter-form button {
+    border-radius: 0 0 10px 10px;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,49 @@
+/* components/BrandSection/BrandSection.css */
+.brand-section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--charcoal);
+  position: relative;
+}
+
+.section-title:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background: var(--taupe);
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .brand-section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
