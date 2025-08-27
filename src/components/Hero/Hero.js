@@ -26,7 +26,7 @@ const Hero = () => {
       image:
         "https://images.unsplash.com/photo-1721206625396-708fa98dff27?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXhxdWlzaXRlJTIwZ29sZCUyMGpld2Vscnl8ZW58MHx8MHx8fDA%3D",
       title: "Anike Gold Emporium",
-      subtitle: "Timeless Beauty",
+      subtitle: "Indulge the timeless elegance",
       description:
         "Adorn yourself with our exquisite gold jewelry and accessories.",
     },
