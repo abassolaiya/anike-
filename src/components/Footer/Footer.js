@@ -70,10 +70,11 @@ const Footer = () => {
             <h3>Contact Info</h3>
             <ul className="contact-info">
               <li>
-                <i className="fas fa-map-marker-alt"></i> 123 Luxury Avenue, NY
+                <i className="fas fa-map-marker-alt"></i> 123 Luxury Avenue,
+                Ibadan
               </li>
               <li>
-                <i className="fas fa-phone"></i> +1 (234) 567-8900
+                <i className="fas fa-phone"></i> +2347062962468
               </li>
               <li>
                 <i className="fas fa-envelope"></i> info@anike.com
